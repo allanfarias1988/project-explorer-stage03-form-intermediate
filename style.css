@@ -1,0 +1,200 @@
+body * {
+  font-family: "Poppins", sans-serif;
+}
+
+body::before {
+  content: "";
+  display: block;
+  width: 100vw;
+  height: 27.25rem;
+
+  position: absolute;
+  top: 0;
+  z-index: -1;
+
+  background: #535971;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  background: #efefef;
+  min-height: 1920px;
+}
+
+h1,
+legend,
+button {
+  font-family: "Staatliches", cursive;
+}
+
+h1 {
+  font-size: 3rem;
+  padding-top: 2.75rem;
+}
+
+fieldset {
+  border: 0;
+}
+
+header {
+  width: 54.375rem;
+  margin: 0 auto;
+}
+
+header .wrapper {
+  width: 26.0625rem;
+  height: 2.875rem;
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+header p {
+  margin: 0;
+}
+#personal-info,
+legend {
+  color: #535971;
+  font-size: 1.5rem;
+  line-height: 2.125rem;
+}
+
+#line {
+  width: 100%;
+  border-bottom: solid 1px #e6e6f0;
+  margin: 1rem 0 2.25rem;
+}
+
+form {
+  width: 46.875rem;
+  height: 67.75rem;
+  padding: 4rem;
+
+  border-radius: 1.25rem 1.25rem 0rem 0rem;
+  background: #fff;
+
+  margin: 13rem auto 0;
+}
+
+form label {
+  color: #4e4958;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+
+form label span {
+  color: #c1bccc;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+}
+
+form label span:hover {
+  color: #151516;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+}
+
+form input {
+  border-radius: 0.5rem;
+  border: 1px solid #e6e6f0;
+  background: #fafafc;
+  padding: 0 1rem;
+  height: 3.5rem;
+  margin: 0.5rem 0;
+  outline: none;
+  transition: ease-in;
+
+}
+
+form input:focus{
+  border-color: #535971;
+  transition: .5s;
+}
+
+form .input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper-fullname {
+  display: flex;
+  gap: 1.38rem;
+}
+
+.wrapper-fullname input {
+  width: 20rem;
+}
+
+.wrapper-first-mentorship {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+#mentorship {
+  width: 43.6rem;
+}
+
+.wrapper-first-mentorship input[type="date"] {
+  width: 18.75rem;
+  height: 3.5rem;
+  padding: 0 1rem;
+}
+
+h3 {
+  color: #535971;
+  font-family: Staatliches;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.125rem;
+}
+.wrapper-times {
+  display: flex;
+  gap: 0.63rem;
+}
+
+.wrapper-first-mentorship input[type="time"] {
+  width: 8.75rem;
+  height: 3.5rem;
+  text-align: center;
+}
+
+legend {
+  margin-top: 2rem;
+}
+
+#form-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 46.875rem;
+  padding: 4rem;
+  margin: 0 auto;
+
+  border-radius: 0rem 0rem 1.25rem 1.25rem;
+  background: #535971;
+}
+
+#form-bottom button {
+  width: 38rem;
+  height: 3.47825rem;
+  padding: 0.9375rem 2.5rem;
+
+  border-radius: 1.25rem;
+  background: #ff5374;
+  color: #fff;
+  outline: none;
+  border: none;
+
+  font-family: Staatliches;
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+}
+
+#form-bottom button:hover {
+  background-color: #d84c68;
+  cursor: pointer;
+}
